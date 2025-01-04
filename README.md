@@ -127,7 +127,7 @@ Additionally to regular JSON, a literal `/*` outside of a string may start
 a block comment. The block comment continues until a literal `*/` is
 found. Please note this means nesting doesn't work, since the first `*/`
 terminates the block comment no matter how many `/*` preceded it.
-The block comment will be ignored by the JSONC parser:
+Any block comment will be ignored by the JSONC parser:
 
 ```json
 {
