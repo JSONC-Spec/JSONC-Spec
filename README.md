@@ -4,7 +4,7 @@
 Common JSONC Specification
 ==========================
 
-*(The original version of this document can be found[here](
+*(The original version of this document can be found [here](
 https://codeberg.org/JSONC-Spec/JSONC-Spec#common-jsonc-specification).)*
 
 This is a specification of the *common JSON with Comments (JSONC) config
