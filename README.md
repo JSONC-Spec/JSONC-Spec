@@ -67,7 +67,7 @@ or the **array** element type:
 | element     | May be any of the available elements below.                |
 | object      | `{` assignments `}` **OR:** `{` `}`                        |
 | array       | `[` items `]` **OR:** `[` `]`                              |
-| assignments | name `:` element **OR** assignments `,` name `:` element   |
+| assignments | name `:` element **OR:** assignments `,` name `:` element  |
 | items       | element **OR:** items `,` element                          |
 | name        | string                                                     |
 | boolean     | `true` **OR:** `false`                                     |
