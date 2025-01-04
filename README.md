@@ -31,7 +31,7 @@ https://github.com/stephenberry/glaze) and [HexDocs's JSONC
 parser](https://hexdocs.pm/jsonc/JSONC.html).
 
 > **JSONC example:**
-> ```
+> ```json
 > {
 >     // This is a JSONC example.
 >     "title": "This is a test!",
