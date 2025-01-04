@@ -1,4 +1,6 @@
 
+<!-- For license of this file, see LICENSE.md in the base dir. -->
+
 # JSONC Specification
 
 *(The original version of this document can be found
