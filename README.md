@@ -62,18 +62,18 @@ JSON has the following elements that can be used in a nested
 tree, whereas the root commonly is the **object** element type
 or the **array** element type:
 
-| **List of JSON elements:** |     |
-|-------------|--------------------|
-| element     | May be any of the available elements below.                |
-| object      | `{` assignments `}` **OR:** `{` `}`                        |
-| array       | `[` items `]` **OR:** `[` `]`                              |
-| assignments | name `:` element **OR:** assignments `,` name `:` element  |
-| items       | element **OR:** items `,` element                          |
-| name        | string                                                     |
-| boolean     | `true` **OR:** `false`                                     |
-| null        | `null`                                                     |
-| number      | A term matching this regex: `-?[0-9]+(\.[0-9]+)+`.         |
-| string      | `/"` *(inside, characters excluding newlines and `"`)* `"` |
+| **List of JSON elements:** |                                            |
+|-------------|-----------------------------------------------------------|
+| element     | May be any of the available elements below.               |
+| object      | `{` assignments `}` **OR:** `{` `}`                       |
+| array       | `[` items `]` **OR:** `[` `]`                             |
+| assignments | name `:` element **OR:** assignments `,` name `:` element |
+| items       | element **OR:** items `,` element                         |
+| name        | string                                                    |
+| boolean     | `true` **OR:** `false`                                    |
+| null        | `null`                                                    |
+| number      | A term matching this regex: `-?[0-9]+(\.[0-9]+)+`.        |
+| string      | `"` *(inside, characters excluding newlines and `"`)* `"` |
 
 > **Note**
 > Strings may contain backslash escapes, see below.
