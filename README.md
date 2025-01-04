@@ -84,7 +84,7 @@ or the **array** element type:
 The **object** type is in many languages mapped to an equivalent
 that may have the alternate name "dictionary" (Python) or "map" (C++).
 
-The **list** type is in many languages mapped to an equivalent
+The **array** type is in many languages mapped to an equivalent
 that may have the alternate name "list" (Python) or "vector" (C++).
 
 
