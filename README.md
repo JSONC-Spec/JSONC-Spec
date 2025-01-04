@@ -62,34 +62,23 @@ JSON has the following elements that can be used in a nested
 tree, whereas the root commonly is the **object** element type
 or the **array** element type:
 
-> **List of JSON elements:**
->
-> element     **Value:** May be any of the available elements below.
->
-> object      **Value:** `{` assignments `}`
->             **Alternate value:** `{` `}`
->
-> array       **Value:** `[` items `]`
->             **Alternate value:** `[` `]`
->
-> assignments     **Value:** name `:` element
->                 **Alternate value:** assignments `,` name `:` element
->
-> items           **Value:** element
->                 **Alternate value:** items `,` element
->
-> name            **Value:** string
->
-> boolean         **Value:** `true` or `false`
->
-> null            **Value:** `null`
->
-> number          **Value:** A value matching the regular expression `-?[0-9]+(\.[0-9]+)+`.
->
-> string          **Value:** `/"` *(inside, any unicode characters other than literal new lines and `"` quotes)* `"`
->
-> **Note:** Strings may contain backslash escapes, see below.
->
+| **List of JSON elements:** |     |
+|-------------|--------------------|
+| element     | May be any of the available elements below.                |
+| object      | `{` assignments `}` **OR:** `{` `}`                        |
+| array       | `[` items `]` **OR:** `[` `]`                              |
+| assignments | name `:` element **OR** assignments `,` name `:` element   |
+| items       | element **OR:** items `,` element                          |
+| name        | string                                                     |
+| boolean     | `true` **OR:** `false`                                     |
+| null        | `null`                                                     |
+| number      | A term matching this regex: `-?[0-9]+(\.[0-9]+)+`.         |
+| string      | `/"` *(inside, characters excluding newlines and `"`)* `"` |
+
+> **Note**
+> Strings may contain backslash escapes, see below.
+
+> **Note**
 > Whitespace characters in between the elements are ignored.
 
 The **object** type is in many languages mapped to an equivalent
@@ -98,9 +87,10 @@ that may have the alternate name "dictionary" (Python) or "map" (C++).
 The **list** type is in many languages mapped to an equivalent
 that may have the alternate name "list" (Python) or "vector" (C++).
 
+
 ### JSON backslash escapes
 
-Since JSON strings cannot contain literal new lines or literal `"` quotes,
+Since JSON strings cannot contain literal newlines or literal `"` quotes,
 you can insert those characters with backslash escapes that start
 with a `\` character.
 The commonly implemented JSON backslash escapes are escaped forward
@@ -120,7 +110,7 @@ JSONC variant:
 ### Line comments with `//`
 
 Additionally to regular JSON, a literal `//` outside of a string may start
-a line comment. The line comment continues until a literal new line
+a line comment. The line comment continues until a literal newline
 character, and will be ignored by the JSONC parser:
 
 ```json
