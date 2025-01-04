@@ -67,19 +67,15 @@ or the **array** element type:
 > element     **Value:** May be any of the available elements below.
 >
 > object      **Value:** `{` assignments `}`
->
 >             **Alternate value:** `{` `}`
 >
 > array       **Value:** `[` items `]`
->
 >             **Alternate value:** `[` `]`
 >
 > assignments     **Value:** name `:` element
->
 >                 **Alternate value:** assignments `,` name `:` element
 >
 > items           **Value:** element
->
 >                 **Alternate value:** items `,` element
 >
 > name            **Value:** string
