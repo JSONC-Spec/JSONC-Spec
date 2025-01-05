@@ -25,7 +25,7 @@ valid JSONC, but not the other way around.
 of the most common JSONC dialect described in this specification
 is provded by [node-jsonc-parser](
 https://github.com/Microsoft/node-jsonc-parser). This variant is
-also provided by the [Horse64 standard library](
+also provided by [Horse64](
 https://codeberg.org/Horse64/core.horse64.org). Different
 variants with various changes are provided by [glaze](
 https://github.com/stephenberry/glaze) and [HexDocs's JSONC
