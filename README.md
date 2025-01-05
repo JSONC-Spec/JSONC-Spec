@@ -18,7 +18,8 @@ for your information.
 https://www.json.org/json-en.html). JSON is a format often used for
 basic data exchange, and JSONC has various small additions to
 make it more suitable for configuration files written by human
-users.
+users. JSONC is a superset of JSON, which means all JSON is also
+valid JSONC, but not the other way around.
 
 **How can I use JSONC?** The perhaps most used implementation
 of the most common JSONC dialect described in this specification
