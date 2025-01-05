@@ -32,7 +32,7 @@ https://github.com/stephenberry/glaze) and [HexDocs's JSONC
 parser](https://hexdocs.pm/jsonc/JSONC.html).
 
 > **JSONC example:**
-> ```json
+> ```javascript
 > {
 >     // This is a JSONC example.
 >     "title": "This is a test!",
@@ -114,7 +114,7 @@ Additionally to regular JSON, a literal `//` outside of a string may start
 a line comment. The line comment continues until a literal newline
 character, and will be ignored by the JSONC parser:
 
-```json
+```javascript
 {
     // This is a line comment example.
     // { this will be ignored and be part of the line comment }
@@ -130,7 +130,7 @@ found. Please note this means nesting doesn't work, since the first `*/`
 terminates the block comment no matter how many `/*` preceded it.
 Any block comment will be ignored by the JSONC parser:
 
-```json
+```javascript
 {
     /* This is a block comment example.
        The number after this will be picked up by the
@@ -144,14 +144,14 @@ Additionally to regular JSON, a single trailing `,` may be used
 after non-empty **object** and **array** elements after their
 assignments or items inside:
 
-```json
+```javascript
 {
     "abc": "def",
     "test": 5,  // <- This comma found here is valid JSONC.
 }
 ```
 
-```json
+```javascript
 [
     1, 2, 3, 4,
     5, 6, 7, 8,  // <- This comma at the end of the line is valid JSONC.
