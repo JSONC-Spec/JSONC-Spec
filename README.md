@@ -95,8 +95,8 @@ you can insert those characters with backslash escapes that start
 with a `\` character.
 The commonly implemented JSON backslash escapes are escaped forward
 slash `\/`, escaped backward slash `\\`, escaped quotes `\"`, escapes for
-new lines `\r` (ascii 13) and `\n` (ascii 10), escapes for horizontal tabs
-`\t` (ascii 9), special ecape `\b` (ascii 8), special escape `\f`
+newlines `\r` (ascii 13) and `\n` (ascii 10), escapes for horizontal tabs
+`\t` (ascii 9), special escape `\b` (ascii 8), special escape `\f`
 (ascii 12), and unicode escapes `\u` followed by 4 (or in some
 implementations up to 8) hexidecimal digits for the codepoint.
 
