@@ -21,6 +21,16 @@ make it more suitable for configuration files written by human
 users. JSONC is a superset of JSON, which means all JSON is also
 valid JSONC, but not the other way around.
 
+> **JSONC Example**
+> ```javascript
+> {
+>     // This is a JSONC example.
+>     "title": "This is a test!",
+>     "type": "Example document",
+>     "author": "JSONC Spec writers",
+> }
+> ```
+
 **How can I use JSONC?** The perhaps most used implementation
 of the most common JSONC dialect described in this specification
 is provided by [node-jsonc-parser](
@@ -30,16 +40,6 @@ https://codeberg.org/Horse64/core.horse64.org). Different
 variants with various changes are provided by [glaze](
 https://github.com/stephenberry/glaze) and [HexDocs's JSONC
 parser](https://hexdocs.pm/jsonc/JSONC.html).
-
-> **JSONC example:**
-> ```javascript
-> {
->     // This is a JSONC example.
->     "title": "This is a test!",
->     "type": "Example document",
->     "author": "JSONC Spec writers",
-> }
-> ```
 
 > **Warning**
 > There are multiple differing implementations of JSONC, so not all
