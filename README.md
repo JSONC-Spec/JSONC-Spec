@@ -201,7 +201,7 @@ hosted by [Codeberg](https://codeberg.org) and their [privacy info](
 https://codeberg.org/Codeberg/org/src/branch/main/PrivacyPolicy.md),
 [terms](
 https://codeberg.org/codeberg/org/src/TermsOfUse.md), and
-and [legal info and contact](
+[legal info and contact](
 https://codeberg.org/Codeberg/org/src/branch/main/Imprint.md)
 apply, I think. (My apologies if this is incorrect.)
 
