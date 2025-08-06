@@ -6,7 +6,7 @@ Common JSONC Specification
 
 *(The original source of this document can be found [here](
 https://codeberg.org/JSONC-Spec/JSONC-Spec#common-jsonc-specification).
-There's a dedicated web page [here](https://jsonc-spec.codeberg.page/).)*
+There's a web version of it [here](https://jsonc-spec.codeberg.page/).)*
 
 This is a specification of the *common JSON with Comments (JSONC) config
 format* that is often seen with a `.jsonc` file extension, or sometimes
