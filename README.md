@@ -182,6 +182,7 @@ comma.
 without special characters and without whitespace to be put into
 objects without requiring any quotes: `{some_value: 5}`
 
+
 Contribute
 ----------
 
@@ -189,4 +190,18 @@ If you find errors or omissions, [please report them here](
 https://codeberg.org/JSONC-Spec/JSONC-Spec/issues). You can
 find the [authors of this document here](/AUTHORS.md).
 
+
+Legal & Contact Info
+--------------------
+
+If you're seeing the web version, this isn't really a dedicated
+web page but just an automated web render [of this document
+here](https://codeberg.org/JSONC-Spec/JSONC-Spec). This is
+hosted by [Codeberg](https://codeberg.org) and their [privacy info](
+https://codeberg.org/Codeberg/org/src/branch/main/PrivacyPolicy.md),
+[terms](
+https://codeberg.org/codeberg/org/src/TermsOfUse.md), and
+and [legal info and contact](
+https://codeberg.org/Codeberg/org/src/branch/main/Imprint.md)
+apply, I think. (My apologies if this is incorrect.)
 
