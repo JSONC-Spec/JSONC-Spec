@@ -188,7 +188,8 @@ Contribute
 
 If you find errors or omissions, [please report them here](
 https://codeberg.org/JSONC-Spec/JSONC-Spec/issues). You can
-find the [authors of this document here](/AUTHORS.md).
+find the [authors of this document here](
+https://codeberg.org/JSONC-Spec/JSONC-Spec/src/branch/main/AUTHORS.md).
 
 
 Legal & Contact Info
