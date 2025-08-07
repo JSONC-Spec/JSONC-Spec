@@ -1,6 +1,6 @@
 
-JSONC-Spec authors
-------------------
+Common JSONC Specification authors
+----------------------------------
 
 The spec was written by:
 
