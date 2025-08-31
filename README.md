@@ -8,7 +8,10 @@ Common JSONC Specification
 https://codeberg.org/JSONC-Spec/JSONC-Spec#common-jsonc-specification).
 There's a web version of it [here](https://jsonc-spec.codeberg.page/).)*
 
-This is a specification of the *Common JSON with Comments (JSONC) config
+**(I'm marking this specification as a draftt as of 2025-09-01, due to
+the role of trailing commas being currently under discussion in the community.)**
+
+This is a specification of the *common JSON with Comments (JSONC) config
 format* that is often seen with a `.jsonc` file extension, or sometimes
 simply with a `.json` file extension. The main focus of this document
 is to capture what seems to be **the most common variant that seems
